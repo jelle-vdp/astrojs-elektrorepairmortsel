@@ -4,8 +4,6 @@ import "@fortawesome/fontawesome-free/css/all.min.css"
 
 import "../style/main.scss"
 
-import Unavailable from "../components/Unavailable.astro";
-
 import Header from "../components/Header.astro"
 import Footer from "../components/Footer.astro";
 
@@ -41,7 +39,6 @@ const mainClasses = classes ? classes : "pt-16 md:pt-24 / pb-24 md:pb-40";
 
 		gtag('config', 'G-CR9LHHPFX7');
 		</script>
-		<Unavailable date={'16 maart'} />
 		<Header />
 		<main class={mainClasses}>
 			<slot />
