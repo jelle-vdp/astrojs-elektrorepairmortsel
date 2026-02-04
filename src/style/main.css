@@ -161,7 +161,7 @@ a {
   border-radius: 15px 15px 15px 50px;
 }
 .btn:hover {
-  background-color: #ac5219 !important;
+  background-color: rgb(171.5806451613, 81.8185483871, 25.4193548387) !important;
 }
 .btn--gap {
   margin-left: var(--gap);
