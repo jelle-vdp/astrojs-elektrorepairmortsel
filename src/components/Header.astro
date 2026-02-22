@@ -12,7 +12,7 @@ const pathname = new URL(Astro.request.url).pathname;
 const currentPath = pathname.slice(1);
 ---
 
-<!-- {endDate > currentDate && <Unavailable date={endDateTLS} />} -->
+{endDate > currentDate && <Unavailable date={endDateTLS} />}
 
 
 <header>
